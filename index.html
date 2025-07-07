@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="icon" href="Assests/images/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Utility_classes.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="nav ">
+            <div class="part1 flex align-items">
+                <img class="hamburger invert" src="Assests/SVGS/hamburger.svg" alt="hamburger">
+                <img class="logo pointer" src="Assests/SVGS/svg1.svg" alt="Logo" height="30px" width="25px">
+                <span class="home pointer enlarge"><img src="Assests/SVGS/svg2.svg" alt="home" height="25px"
+                        width="20px"></span>
+                <span class="justify-content align-items searchbox">
+                    <img class="pointer" src="Assests/SVGS/Search.svg" alt="Search" height="30px" width="20px">
+                    <input type="text" placeholder="What do you want to play?">
+                    <span class="vertical-bar"></span>
+                    <img class="pointer" src="Assests/SVGS/Browse.svg" alt="Browse" height="30px" width="20px">
+                </span>
+            </div>
+            <div class="part2 flex align-items">
+                <span
+                    class="premium btn  align-items justify-content pointer enlarge color-transition">Premium</span>
+                <span
+                    class="support btn  align-items justify-content  pointer enlarge color-transition">Support</span>
+                <span
+                    class="download btn  align-items justify-content pointer enlarge color-transition">Download</span>
+                <span class="part2-vertical-bar vertical-bar" style=" margin: 12px;"></span>
+                <span class="install btn flex align-items justify-content pointer enlarge color-transition">
+                    <img src="Assests/SVGS/download.svg" alt="install" height="30px" width="12px">
+                    <span>Install App</span>
+                </span>
+                <span class="signup btn flex align-items justify-content pointer enlarge color-transition">Sign
+                    up</span>
+                <button class="login btn flex align-items justify-content pointer enlarge">Log in</button>
+            </div>
+        </div>
+        <div class="boxes">
+            <div class="left-box ">
+                <header id="left-box-header" class="flex align-items">
+                    <span>Your Library</span>
+                    <span><img class="invert plus" src="Assests/SVGS/plus.svg" alt="plus"></span>
+                </header>
+                <main class="Songlist-section">
+                    <section class="songlist">
+                        
+                        <ul>                                             
+                        </ul>
+                    </section>
+                </main>
+                <footer id="left-box-footer">
+                    <div class="left-box-footer-part1  ">
+                        <span>Legal</span>
+                        <span>Safety & Privacy Center</span>
+                        <span>Privacy Policy</span>
+                        <span>Cookies</span>
+                        <span>About Ads</span>
+                        <span>Accessibility</span>
+                    </div>
+                    <div class="left-box-footer-part2">
+                        <span>Cookies</span>
+                    </div>
+                    <div class="left-box-footer-part3">
+                        <button class="flex justify-content align-items enlarge border-dark">
+                            <img class="invert" src="Assests/SVGS/Browser.svg" alt="Browser">
+                            English
+                        </button>
+                    </div>
+                </footer>
+            </div>
+            <div class="right-box">
+                <section class="Trending-song">
+                    <h3>Spotify Playlists</h3>
+                    <div class="song-container flex ">
+                        <!-- <div data-folder="fav" class="song-card">
+                            <span><img class="play-button" src="Assests/SVGS/play-button.svg" alt="play-button"></span>
+                            <img src="https://i.scdn.co/image/ab67616d00001e026fbb60d6a7e03ccb940a518e" alt="">
+                            <h5>Sapphire</h5>
+                            <p>Ed Sheeran</p>
+                        </div>
+                        <div data-folder="rock" class="song-card">
+                            <span><img class="play-button" src="Assests/SVGS/play-button.svg" alt="play-button"></span>
+                            <img src="https://i.scdn.co/image/ab67616d00001e026fbb60d6a7e03ccb940a518e" alt="">
+                            <h5>Sapphire</h5>
+                            <p>Ed Sheeran</p>
+                        </div> -->
+                        <!-- <div class="song-card">
+                            <span><img class="play-button" src="Assests/SVGS/play-button.svg" alt="play-button"></span>
+                            <img src="https://i.scdn.co/image/ab67616d00001e026fbb60d6a7e03ccb940a518e" alt="">
+                            <h5>Sapphire</h5>
+                            <p>Ed Sheeran</p>
+                        </div>
+                        <div class="song-card">
+                            <span><img class="play-button" src="Assests/SVGS/play-button.svg" alt="play-button"></span>
+                            <img src="https://i.scdn.co/image/ab67616d00001e026fbb60d6a7e03ccb940a518e" alt="">
+                            <h5>Sapphire</h5>
+                            <p>Ed Sheeran</p>
+                        </div>
+                        <div class="song-card">
+                            <span><img class="play-button" src="Assests/SVGS/play-button.svg" alt="play-button"></span>
+                            <img src="https://i.scdn.co/image/ab67616d00001e026fbb60d6a7e03ccb940a518e" alt="">
+                            <h5>Sapphire</h5>
+                            <p>Ed Sheeran</p>
+                        </div>
+                        <div class="song-card">
+                            <span><img class="play-button" src="Assests/SVGS/play-button.svg" alt="play-button"></span>
+                            <img src="https://i.scdn.co/image/ab67616d00001e026fbb60d6a7e03ccb940a518e" alt="">
+                            <h5>Sapphire</h5>
+                            <p>Ed Sheeran</p>
+                        </div> -->
+
+
+                    </div>
+                </section>
+                <section class="play-bar">
+                    <div class="flex above-bar">
+
+                        <div class="songinfo flex align-items">
+                            <img id="songinfoimg" src="" alt="">
+
+                        </div>
+                        <div class="play-bar-section flex align-items justify-content">
+                            <img id="previous" class="invert pointer" src="Assests/SVGS/previous.svg" alt="">
+                            <img id="play" class="invert pointer" src="Assests/SVGS/play.svg" alt="">
+                            <img id="next" class="invert pointer"src="Assests/SVGS/next.svg" alt="">
+    
+                        </div>
+                        <div class="below-bar">
+                            <div class="volbutton ">
+                                <div class="volbutton-part">
+
+                                    <img class="invert volbutton-part-image"  src="Assests/SVGS/Volumn.svg" alt="volumn">
+                                    <div class="range volbutton-seekbar">
+                                        <input type="range" name="volumn">
+                                    </div>
+                                    <!-- <div class="volbutton-seekbar">
+                                        <div class="volbutton-circle"></div>
+                                    </div> -->
+                                </div>
+                            </div>
+
+                            <div class="songduration flex align-items">
+    
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="seekbar-section flex align-items">
+                        <div class="seekbar pointer">
+                            <div class="circle"></div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
