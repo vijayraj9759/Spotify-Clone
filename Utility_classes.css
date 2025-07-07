@@ -1,0 +1,43 @@
+.flex{
+    display: flex;
+}
+.align-items{
+    align-items: center;
+}
+.justify-content{
+    justify-content: center;
+}
+.vertical-bar{
+    width: 2px;
+    height: 30px;
+    background-color: grey;
+    margin: 3px;
+    /* display: inline-block; */
+}
+.background-black{
+    background-color: black;
+}
+.pointer:hover{
+    cursor: pointer;
+}
+.enlarge{
+    transition: transform 0.3s ease ;
+}
+.enlarge:hover{
+    transform: scale(1.05);
+}
+.color-transition{
+    transition: color 0s ease;
+}
+.color-transition:hover{
+    color: rgb(229, 226, 226);
+}
+.invert{
+    filter: invert(1);
+}
+.border-dark:hover{
+    border: 1.5px solid rgb(127, 126, 126);;
+}
+.pointer{
+    cursor: pointer;
+}
