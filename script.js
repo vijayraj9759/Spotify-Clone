@@ -14,7 +14,7 @@ let firstsong = 1;
 
 // fetch song from server 
 async function LoadandAttachsongs(folder) {
-    let a = await fetch(`http://127.0.0.1:5500/Songs/${folder}/`);
+    let a = await fetch(`Songs/${folder}/`);
     let response = await a.text();
     let div = document.createElement("div");
     div.innerHTML = response;
